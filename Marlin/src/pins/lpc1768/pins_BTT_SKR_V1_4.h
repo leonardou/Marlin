@@ -149,6 +149,11 @@
   #define E1_CS_PIN                        P1_01
 #endif
 
+#define Y2_STEP_PIN                        E0_STEP_PIN 
+#define Y2_DIR_PIN                         E0_DIR_PIN 
+#define Y2_ENABLE_PIN                      E0_ENABLE_PIN
+#define Y2_CS_PIN                          E0_CS_PIN
+
 #define TEMP_1_PIN                      P0_23_A0  // A2 (T2) - (69) - TEMP_1_PIN
 #define TEMP_BED_PIN                    P0_25_A2  // A0 (T0) - (67) - TEMP_BED_PIN
 
